@@ -13,6 +13,7 @@ def find_word(word):
             counter += line.count(word)
 
     print('The word {} is in the text {} times'.format(word, counter))
+    print('')
 
 if __name__ == '__main__':
     main()
